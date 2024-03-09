@@ -23,7 +23,7 @@ O ParMini é um interpretador desenvolvido em Python que permite a execução de
 ## Como Usar:
 
 1. **Instalação:**
-   ```bash
+```bash
    git clone https://github.com/RayssaRoseno/ParMini.git
    cd ParMini
 2. Execução:
