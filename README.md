@@ -26,6 +26,7 @@ O ParMini é um interpretador desenvolvido em Python que permite a execução de
 ```bash
    git clone https://github.com/RayssaRoseno/ParMini.git
    cd ParMini
+```
 2. Execução:
  ```bash
    python main.py
