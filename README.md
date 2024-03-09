@@ -30,10 +30,8 @@ O ParMini é um interpretador desenvolvido em Python que permite a execução de
  ```bash
    python main.py
  ```
-3.  Programas de Teste:
-```bash
-Explore os programas de teste no diretório test/ para entender melhor a sintaxe e funcionalidades do MiniPar.
- ```
+
 ## Contribuições
 
-@rayssaroseno
+[RayssaRoseno](https://github.com/RayssaRoseno)
+
