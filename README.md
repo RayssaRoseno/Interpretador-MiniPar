@@ -14,11 +14,13 @@ O ParMini é um interpretador desenvolvido em Python que permite a execução de
 
 ## Estrutura do Projeto:
 
-- **Lexer e Parser:** Módulos responsáveis pela análise léxica e sintática do código fonte, convertendo-o em uma árvore sintática.
+- **Lexer (Analisador Léxico)**: Este módulo é responsável por dividir o código-fonte em unidades significativas chamadas tokens. Ele varre o código fonte e identifica palavras-chave, identificadores, operadores, símbolos especiais e outros elementos léxicos, atribuindo a cada um um tipo e um valor. Os tokens gerados pelo Lexer são utilizados pelo Parser para construir a estrutura de árvore sintática.
 
-- **Interpreter:** Módulo que executa as instruções representadas pela árvore sintática, gerenciando a execução sequencial e paralela.
+- **Parser (Analisador Sintático)**: O Parser recebe os tokens produzidos pelo Lexer e os utiliza para construir uma representação hierárquica do código fonte na forma de uma árvore sintática. Ele verifica se a estrutura do código fonte está de acordo com as regras da gramática da linguagem e produz uma estrutura de dados que representa a hierarquia e a relação entre os elementos do código fonte.
 
-- **Error Handler:** Módulo dedicado ao tratamento de erros, garantindo uma experiência de usuário aprimorada.
+- **Interpreter (Interpretador)**: O Interpreter recebe a árvore sintática gerada pelo Parser e executa as instruções representadas por ela. Ele percorre a árvore e interpreta cada nó, realizando as operações correspondentes. Isso pode incluir a execução de instruções sequenciais, a criação e execução de threads para instruções paralelas, a manipulação de variáveis e a comunicação entre computadores por meio de canais.
+
+
 
 ## Como Usar:
 
