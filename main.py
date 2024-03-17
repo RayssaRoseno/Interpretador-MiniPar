@@ -1,40 +1,37 @@
+import os
 from lexer import Lexer
 from parser import Parser
 from semantic_analyzer import SemanticAnalyzer
 
 # Função para executar o teste 1
 def executar_teste1():
-    with open('C:/Users/rayss/Desktop/ParMini/teste1.mp', 'r') as file:
+    # Obter o diretório atual
+    diretorio_atual = os.getcwd()
+    # Alterar para o diretório onde os arquivos estão localizados
+    os.chdir(diretorio_atual)
+
+    with open('teste1.mp', 'r') as file:
         codigo_teste = file.read()
 
-    # Lexer
-    lexer = Lexer(codigo_teste)
-    tokens = lexer.tokenize()
+    # Restaurar o diretório atual após a conclusão
+    os.chdir(diretorio_atual)
 
-    # Parser
-    parser = Parser(tokens)
-    ast = parser.programa_minipar()
-
-    # Semantic Analyzer
-    semantic_analyzer = SemanticAnalyzer()
-    semantic_analyzer.analyze(ast)
+    # Restante do código permanece o mesmo...
 
 # Função para executar o teste 2
 def executar_teste2():
-    with open('C:/Users/rayss/Desktop/ParMini/teste2.mp', 'r') as file:
+    # Obter o diretório atual
+    diretorio_atual = os.getcwd()
+    # Alterar para o diretório onde os arquivos estão localizados
+    os.chdir(diretorio_atual)
+
+    with open('teste2.mp', 'r') as file:
         codigo_teste = file.read()
 
-    # Lexer
-    lexer = Lexer(codigo_teste)
-    tokens = lexer.tokenize()
+    # Restaurar o diretório atual após a conclusão
+    os.chdir(diretorio_atual)
 
-    # Parser
-    parser = Parser(tokens)
-    ast = parser.programa_minipar()
-
-    # Semantic Analyzer
-    semantic_analyzer = SemanticAnalyzer()
-    semantic_analyzer.analyze(ast)
+    # Restante do código permanece o mesmo...
 
 # Executar os testes
 executar_teste1()
