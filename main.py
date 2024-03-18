@@ -16,8 +16,6 @@ def executar_teste1():
     # Restaurar o diretório atual após a conclusão
     os.chdir(diretorio_atual)
 
-    # Restante do código permanece o mesmo...
-
 # Função para executar o teste 2
 def executar_teste2():
     # Obter o diretório atual
@@ -30,8 +28,6 @@ def executar_teste2():
 
     # Restaurar o diretório atual após a conclusão
     os.chdir(diretorio_atual)
-
-    # Restante do código permanece o mesmo...
 
 # Executar os testes
 executar_teste1()
