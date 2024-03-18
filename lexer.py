@@ -116,5 +116,3 @@ for token in tokens:
     print(f'Tipo: {token.tipo}, Valor: {token.valor}')
 
 
-# Este código atualizado reconhece identificadores, números, literais e caracteres especiais de acordo com a nova gramática MiniPar.
-# Certifique-se de ajustar e expandir as regras de tokenização conforme necessário para abranger todos os elementos da linguagem MiniPar.
