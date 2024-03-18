@@ -99,8 +99,3 @@ class SemanticAnalyzer:
             if child.tipo == 'execucao' and 'SEQ' in [stmt.tipo for stmt in child.filhos]:
                 self.errors.append("Erro Semântico: Execução sequencial dentro de um bloco PAR.")
                 break
-
-#Este analisador semântico foi atualizado para incluir métodos de visita para os novos tipos de nós introduzidos na gramática MiniPar. 
-#Além disso, uma verificação semântica foi adicionada para detectar a presença de execuções sequenciais dentro de blocos PAR, o que pode 
-#ser considerado um erro semântico. Certifique-se de ajustar e expandir os métodos de visita conforme necessário para abranger todas as 
-#regras semânticas da linguagem MiniPar.
