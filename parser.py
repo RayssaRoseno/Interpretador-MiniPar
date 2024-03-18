@@ -237,9 +237,6 @@ class Parser:
             self.current_token = self.tokens[self.posicao]
 
 
-#Neste código, atualizei os métodos de acordo com a nova gramática, incluindo adições de novos métodos como send_stmt, receive_stmt, rel_expr, 
-#fibonacci, factorial e outros, além de ajustar os métodos existentes para corresponder aos tokens e regras da gramática atual. 
-#Certifique-se de que os tokens fornecidos ao parser correspondam à nova gramática.
-            
+
 
 
